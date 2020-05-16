@@ -51,18 +51,15 @@ Changes to be committed:
         new file:   answers.md
 
 Answer 7) $ git commit -m "Initial commit"
+$ git status
 On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   answers.md
+nothing to commit, working tree clean
 
-no changes added to commit (use "git add" and/or "git commit -a")
 
 Answer 8) $ git log
-commit ef7d9aa60cfd23954410f7415a462b7509399fd0 (HEAD -> master)
+commit 02170747d9352e3a72b1620d8f78841b48e0c73e (HEAD -> master)
 Author: Paola <pg748418@ohio.edu>
-Date:   Fri May 15 15:36:13 2020 -0400
+Date:   Fri May 15 23:08:36 2020 -0400
 
     Initial commit
 
@@ -70,12 +67,8 @@ Answer 9) $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   answers.md
+nothing to commit, working tree clean
 
-no changes added to commit (use "git add" and/or "git commit -a")
 
 Answer 10) No changes I made online were reflected in my local copy. 
 
@@ -84,5 +77,5 @@ Answer 11) My push command gets rejected
 Answer 12) The changes online were reflected in my local copy when I used git pull
 
 Answer 13) 
-$ ls
-answers.md  git-lab-2  README.md
+.  ..
+
